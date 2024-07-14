@@ -1,0 +1,88 @@
+- Jump down
+- _Equipment::Weapon<Boko Club>:
+    comment: From bokoblin below
+    coord: [-811.41, 221.27, 1958.06]
+
+- BLSS to .loc(Castle Balcony)
+- Drop & pickup:
+    notes: Move ruby into slot 1 of materials for IST
+    icon: material
+    hide-icon-on-map: true
+    comment: Peppers and shrooms
+- _Chest<3 Ancient Arrows>:
+    coord: [-254.00, 209.67, -742.37]
+    color: lime
+- _Equipment::Bow<Royal Bow>:
+    hide-icon-on-map: true
+- 5 Normal Arrow:
+    icon: bow
+    hide-icon-on-map: true
+
+- .dir(W) + .dir(W):
+    coord: [-416, -753]
+    notes: BLSS from top of malice pillar
+
+- BLSS to .loc(Great Fairy Fountain)
+- _Material<3 Fairy>:
+    coord: [-3545.92, 295.03, -760.21]
+- _Material<3 Mighty Thistle>:
+    coord: [-3534.30, 292.78, -764.30]
+
+- .dir(N>)
+- _Equipment::Weapon<Royal Claymore>:
+    coord: [-3554.00, 331.55, -1047.30]
+- BLSS to .loc(Rito Village)
+
+- _Npc::Rito<Kaneli>:
+    coord: [-3627.20, 323.57, -1830.81]
+- _Npc::Rito<Saki>:
+    coord: [-3606.64, 323.62, -1823.03]
+    comment: Revali memory
+
+- Jump down
+- _Shop<General Store>:
+    coord: [-3643.01, 290.64, -1823.43]
+    hide-icon-on-map: true
+- .!!(IST):
+    icon: tots
+    notes: .link([IST Sim commands]https://pastebin.com/wAv3P51a), copy/paste into .link([IST Sim]https://dupl.itntpiston.app/#simulation)
+- _Shop<Sell 9 Ruby>:
+    hide-icon-on-map: true
+
+- .dir(<N)
+- _Npc::Rito<Teba>:
+    coord: [-3798.52, 267.35, -2314.14]
+
+- Shoot 5 Targets
+- _Chest<Falcon Bow>:
+    hide-icon-on-map: true
+
+- .dir(Enter Medoh):
+    icon: medoh-enter
+    coord: [-3620.00, 739.95, -2110.00]
+    counter: .var(UserDefined)
+    notes: One ancient arrow takes out a canon.
+
+- Complete Divine Beast
+- _Chest<10 Ice Arrow>:
+    hide-icon-on-map: true
+    comment: After terminal 4
+
+- .boss(Windblight):
+    icon: calamity
+    hide-icon-on-map: true
+
+- Revali's Gale:
+    icon: medoh-done
+    movements:
+      - to: [-3565.625, -1817.375]
+        warp: true
+    counter: .var(UserDefined)
+    color: yellow
+
+- _Npc<Kaneli>:
+    coord: [-3627.20, 323.57, -1830.81]
+    hide-icon-on-map: true
+
+- _Chest::Special<Great Eagle Bow>:
+    hide-icon-on-map: true

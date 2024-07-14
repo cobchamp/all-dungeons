@@ -1,0 +1,14 @@
+- This is the current (2022-09-03, 2022-09-05) world record run by .link([Player5]https://www.speedrun.com/user/Player5), .link([video link]https://youtu.be/odktJjMIUtk)
+- For the previous (2022-08-11) world record by .link([Zdi]https://www.speedrun.com/user/Zdi). go .link([here]https://celer.itntpiston.app/#/gh/taoplusplus/alldungeons/2022-08-11-Zdi)
+- Plateau:
+    - use: ./branches/plateau.yaml
+- Vah Medoh:
+    - use: ./branches/vah-medoh.yaml
+- Vah Naboris:
+    - use: ./branches/vah-naboris.yaml
+- Vah Ruta:
+    - use: ./branches/vah-ruta.yaml
+- Vah Rudania:
+    - use: ./branches/vah-rudania.yaml
+- Ganon:
+    - use: ./branches/ganon.yaml
